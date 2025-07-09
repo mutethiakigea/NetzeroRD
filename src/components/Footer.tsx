@@ -8,12 +8,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-br from-green-600 to-emerald-700 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold">N</span>
-              </div>
+              <img
+                src="https://drivezeewebsite.blob.core.windows.net/logos/netzerordlogo-removebg-preview.png"
+                alt="Netzero RnD Logo"
+                className="w-20 h-20 rounded-lg"
+              />
               <div>
                 <h3 className="text-lg font-bold">Netzero RnD</h3>
-                <p className="text-sm text-gray-400">Research & Development</p>
+                <p className="text-sm text-gray-400">Researching for a Netzero Future</p>
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
@@ -38,11 +40,11 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail size={16} className="text-green-400" />
-                <span className="text-gray-400 text-sm">info@netzero-rnd.com</span>
+                <span className="text-gray-400 text-sm">info@netzerord.co.ke</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone size={16} className="text-green-400" />
-                <span className="text-gray-400 text-sm">+254 (0) 700 000 000</span>
+                <span className="text-gray-400 text-sm">+254 (0) 722953976</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin size={16} className="text-green-400" />
@@ -54,7 +56,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} Netzero Research and Development Company. All rights reserved.
+            © {new Date().getFullYear()} Netzero Research and Development. All rights reserved.
           </p>
         </div>
       </div>

@@ -107,7 +107,7 @@ const Services = () => {
       year: "2025",
       funder: "Bayes Consulting",
       description: "This research study aims to establish e-mobility as a systematic demand driver for renewable energy across Kenya, Uganda, Tanzania, Malawi and Ethiopia.",
-      regions: ["Kenya", "Uganda", "Tanzania", "Malawi", "Ethiopia"],
+      regions: ["Kenya"],
       status: "Ongoing"
     },
     {
@@ -116,7 +116,7 @@ const Services = () => {
       year: "2025",
       funder: "Climate Compatible Growth (CCG) Flexible Research Fund",
       description: "This research study aims to investigate and compare the impact of governance and regulatory frameworks on financing mechanisms for popular transport electrification in Kenya and Vietnam.",
-      regions: ["Kenya", "Vietnam"],
+      regions: ["Kenya"],
       status: "Ongoing"
     },
     {

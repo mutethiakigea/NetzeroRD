@@ -23,12 +23,14 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-green-600 to-emerald-700 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">N</span>
-              </div>
+              <img
+                src="https://drivezeewebsite.blob.core.windows.net/logos/netzerordlogo-removebg-preview.png"
+                alt="Netzero RnD Logo"
+                className="w-20 h-20 rounded-lg"
+              />
               <div>
                 <h1 className="text-xl font-bold text-gray-900">Netzero RnD</h1>
-                <p className="text-xs text-gray-600">Research & Development</p>
+                <p className="text-xs text-gray-600">Researching for a Netzero Future</p>
               </div>
             </Link>
           </div>
